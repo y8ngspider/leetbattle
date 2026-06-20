@@ -1,11 +1,6 @@
-import Image from "next/image";
-import About from "@/components/About";
+// just redirect to landing for now
+import { redirect } from 'next/navigation'
 
 export default function Home() {
-  return (
-    <>
-      <About></About>
-    </>
-    
-  );
+  redirect('/landing')
 }
