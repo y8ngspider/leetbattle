@@ -95,9 +95,9 @@ export default function LandingPage() {
             <h2 className="text-2xl text-center">Get hired while playing.</h2>
             {/* CTA button */}
             <div className="flex justify-center m-3">
-              <button className=" p-2 pt-1 pb-1 bg-black border border-black rounded-md font-medium text-white">
+              <Link href="/play" className=" p-2 pt-1 pb-1 bg-black border border-black rounded-md font-medium text-white">
                 Play Now
-              </button>
+              </Link>
             </div>
           </div>
         </div>
